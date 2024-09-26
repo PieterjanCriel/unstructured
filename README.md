@@ -41,7 +41,7 @@ The `unstructured` library provides open-source components for ingesting and pre
 
 We are thrilled to announce our newly launched [Unstructured API](https://unstructured-io.github.io/unstructured/api.html), providing the Unstructured capabilities from `unstructured` as an API. Check out the [`unstructured-api` GitHub repository](https://github.com/Unstructured-IO/unstructured-api) to start making API calls. You’ll also find instructions about how to host your own API version.
 
-While access to the hosted Unstructured API will remain free, API Keys are required to make requests. To prevent disruption, get yours [here](https://unstructured.io/#get-api-key) and start using it today! Check out the [`unstructured-api` README](https://github.com/Unstructured-IO/unstructured-api#--) to start making API calls.</p>
+While access to the hosted Unstructured API will remain free, API Keys are required to make requests. To prevent disruption, get yours [here](https://unstructured.io/api-key) and start using it today! Check out the [`unstructured-api` README](https://github.com/Unstructured-IO/unstructured-api#--) to start making API calls.</p>
 
 #### :rocket: Beta Feature: Chipper Model
 
@@ -99,7 +99,7 @@ Once in the running container, you can try things directly in Python interpreter
 # this will drop you into a python console so you can run the below partition functions
 python3
 
->>> from unstructured.partition.pdf import partition_pdf
+>>> from unstructured.partition.pdf_image.pdf import partition_pdf
 >>> elements = partition_pdf(filename="example-docs/layout-parser-paper-fast.pdf")
 
 >>> from unstructured.partition.text import partition_text
